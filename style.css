@@ -51,23 +51,23 @@ h2 {
 	font-size: 2em;
 }
 
-.whiteOn .onYellow{
-	background-color: yellow;
-	padding-left: 15px;
-}
-
 .whiteOn .onGreen{
 	background-color: green;
 	padding-left: 15px;
 }
 
+.whiteOn .onYellow{
+	background-color: yellow;
+	padding-left: 15px;
+}
+
 
 .FloatFigure {
-float: left;
-margin-left: 0px;
-margin-top: 10px;
-margin-right: 30px;
-margin-bottom: 1px;
+	float: left;
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-right: 30px;
+	margin-bottom: 1px;
 }
 
 .FloatFigure figcaption {
@@ -77,6 +77,27 @@ color: white;
 font-style: italic;
 margin-bottom: 55px;
 }
+
+#banner {
+	color: orange;
+	font-size: 2em;
+	margin-top: 350px;
+	margin-bottom: 40px;
+}
+
+#banner strong {
+	background-color: red;
+}
+
+.message strong {
+	background-color: gray;
+	font-size: 1.5em;
+}
+
+
+
+
+
 
 
         
