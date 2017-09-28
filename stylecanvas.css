@@ -1,0 +1,53 @@
+
+.fuckingcanvas .Toolbar {
+    float: left;
+    font-family: 'Trebuchet MS'; 
+    font-size: 14px;
+    font-variant: small-caps;
+    text-align: center;
+    background: #F2F7FE;
+    padding: 10px 15px 3px 10px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    border: 1px solid #7B899B;
+}
+
+.fuckingcanvas .Toolbar button {
+    padding: 6px;
+    margin: 7px 2px;
+    font-variant: normal;
+    font-size: 12px;
+}
+
+.fuckingcanvas .CanvasContainer {
+    clear: both;
+}
+
+.fuckingcanvas canvas {
+    border: 2px dashed red;
+	background-color: white;
+}
+
+.fuckingcanvas img {
+    padding: 2px;
+    border: 2px solid #F2F7FE;
+}
+
+.fuckingcanvas img:hover {
+    border: 2px groove #E4F0FE;
+    background: white;
+}
+
+
+.fuckingcanvas img.Selected {
+    border: 2px groove #E4F0FE;
+}
+
+.fuckingcanvas #savedCopyContainer {
+    display: none;
+}
+
+.fuckingcanvas #savedCopyContainer img {
+    width: 250px;
+    height: 150px;
+}

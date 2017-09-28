@@ -1,12 +1,13 @@
 html{
 	padding-top: 15px;
 	padding-bottom: 25px;
-	background-image: url(pl.jpg);
+	background-image: url(plya.jpg);
+	background-position: center top;
 }
 
 body {
 	//background-color: black;
-	box-shadow: 20px 20px 20px rgba(0,0,0,.5);
+	//box-shadow: 20px 20px 20px rgba(0,0,0,.5);
 	width: 896px;
 	height: 100%;
 	min-height: 100%;
@@ -83,18 +84,33 @@ margin-bottom: 55px;
 	font-size: 2em;
 	margin-top: 350px;
 	margin-bottom: 40px;
+	border: 2px dashed #BD8110;
 }
 
 #banner strong {
 	background-color: red;
 }
 
-.message strong {
+.names strong {
 	background-color: gray;
 	font-size: 1.5em;
 }
 
+/*aside.NavSidebar
+{
+position: absolute;
+top: 1px;
+left: 0px;
+padding: 5px 15px 5px 5px;
+width: 203px;
+min-height: 280px;
+background-color: #eee;
+font-size: small;
+}*/
 
+.forFrame {
+	margin-bottom: 100px;
+}
 
 
 

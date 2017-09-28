@@ -1,18 +1,20 @@
-﻿<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
   <title>Training</title>
   <link href="style.css" rel="stylesheet">
-  <script src="title.js" defer></script>       
+  <link href="stylecanvas.css" rel="stylesheet">
+  <script src="canvas.js" defer></script>     
+  <script src="title.js" defer></script>   
 </head>
 
 <body>
 	<h1> My site </h1>
 	<p class="whiteOnGreen">Нашим веб-сайтом управляет:</p>
 	<address > 
-	<p class="message" onClick="showMessage()" > <strong>John Solo</strong> </p>
+	<p class="names" onClick="showMessage()" > <strong>John Solo</strong> </p>
 	</address>
 	<p class="whiteOnGreen">Чарльз Диккенс написал <cite>Повесть о двух городах</cite>.</p>
 
@@ -26,16 +28,65 @@
 	<div class="whiteOn">
 	<p > <span class="onGreen">Let's consider the rabbits</span></p>
 
- <!-- <script src="msg1.js" defer></script> -->
-  <script src="msg1.js" async></script> 
+  <script src="msg1.js" defer></script> 
+  <script src="msg3.js" async></script> 
 
 	<p class=onYellow>Rabbits was consider</p>
 	</div>
 	
-	<p id=banner> <strong>Caution.</strong> Can be your favorite music.</p>
+	<p id=banner>  <strong>Caution.</strong> Can be your favorite music. </p>
+
 	
-	<iframe src="house.html" width="800" height="600">
+<!--<aside class = "NavSidebar">
+<nav>
+<h2>Articles</h2>
+<ul>
+<li><a href="...">How The World Could End</a></li>
+<li><a href="...">Would Aliens Enslave or Eradicate Us?</a></li>
+...
+</ul>
+</nav>
+<section>
+<h2>About Us</h2>
+<p>Apocalypse Today is a world leader in conspiracy theories ...
+</p>
+</section>
+<div>
+<img src="ad.jpg" alt="Luckies cigarette ad: it's toasted">
+</div>
+</aside>-->
+	
+	<iframe class="forFrame" src="C:\Documents\GitHub\avetisyanIncorporation.github.io\house.html" width="800" height="600">
     </iframe>
+	
+	<p class="whiteOnGreen"> Для рисования </p>
+	
+	<div class="fuckingcanvas">
+	<div class="Toolbar">
+        - Цвет -<br>
+        <img class="forImage" id="redPen" src="http://professorweb.ru/downloads/pen_red.gif" alt="Красная кисть" onclick="changeColor('rgb(212,21,29)', this)">
+        <img class="forImage" id="greenPen" src="http://professorweb.ru/downloads/pen_green.gif" alt="Зеленая кисть" onclick="changeColor('rgb(131,190,61)', this)"> 
+        <img class="forImage" id="bluePen" src="http://professorweb.ru/downloads/pen_blue.gif" alt="Синяя кисть" onclick="changeColor('rgb(0,86,166)', this)">
+	</div>
+	<div class="Toolbar">
+        - Толщина -<br>
+        <img class="forImage" src="http://professorweb.ru/downloads/pen_thin.gif" alt="Тонкая кисть" onclick="changeThickness(1, this)">
+        <img class="forImage" src="http://professorweb.ru/downloads/pen_medium.gif" alt="Нормальная кисть" onclick="changeThickness(5, this)"> 
+        <img class="forImage" src="http://professorweb.ru/downloads/pen_thick.gif" alt="Толстая кисть" onclick="changeThickness(10, this)">
+	</div>
+	<div class="CanvasContainer">
+        <canvas id="drawingCanvas" width="800" height="600"></canvas>
+	</div>
+	<div class="Toolbar">
+        - Операции-<br>
+        <button onclick="saveCanvas()">Сохранить содержимое Canvas</button>
+        <button onclick="clearCanvas()">Очистить Canvas</button>
+        <div id="savedCopyContainer">
+           <img id="savedImageCopy"><br>
+           Щелкните правой кнопкой мыши для сохранения ...
+        </div>
+	</div>
+	</div>
 
 </body>
 
