@@ -1,8 +1,8 @@
-html{
-	padding-top: 15px;
+html {
+	padding-top: 10px;
 	padding-bottom: 25px;
-	background-image: url(plya.jpg);
-	background-position: center top;
+	background-image: url(pl.jpg);
+	background-position: center top; 
 }
 
 body {
@@ -12,7 +12,7 @@ body {
 	height: 100%;
 	min-height: 100%;
 	margin: 0 auto;
-	padding: 10px 48px 10px;
+	padding: 50px 48px 10px;
 }
 
 h1{
@@ -96,21 +96,40 @@ margin-bottom: 55px;
 	font-size: 1.5em;
 }
 
-/*aside.NavSidebar
+aside.NavSidebar
 {
-position: absolute;
-top: 1px;
-left: 0px;
-padding: 5px 15px 5px 5px;
-width: 203px;
-min-height: 280px;
-background-color: #eee;
+position: fixed;
+top: 0px;
+left: 195px;
+padding: 5px 255px 0px 5px;
+background-color: #15172e;
+width: 700px;
+min-height: 60px;
 font-size: small;
-}*/
-
-.forFrame {
-	margin-bottom: 100px;
 }
+
+
+.NavSidebar ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 10px; /*убираем отступы*/
+  padding-left: 10px; /*убираем отступы*/
+}
+.NavSidebar a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  font-size: 2em;
+  color: white;
+}
+.NavSidebar li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  margin-right: 20px; /*Добавляем отступ у пунктов меню*/
+}
+
+#firmName{
+  font-size: 3em;
+  color: white;
+}
+
+
 
 
 
