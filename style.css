@@ -3,6 +3,9 @@ html {
 	padding-bottom: 25px;
 	background-image: url(pl.jpg);
 	background-position: center top; 
+	width: 1350px;
+	min-width: 1350px;
+	max-width: 1350px;
 }
 
 body {
@@ -101,9 +104,9 @@ aside.NavSidebar
 position: fixed;
 top: 0px;
 left: 195px;
-padding: 5px 255px 0px 5px;
+padding: 5px 155px 0px 5px;
 background-color: #15172e;
-width: 700px;
+width: 800px;
 min-height: 60px;
 font-size: small;
 }
