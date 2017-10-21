@@ -5,38 +5,10 @@
   <meta charset="utf-8">
   <title>Training</title> 
   <link href="style.css" rel="stylesheet"> 
-  <script src="title.js" defer></script>  
+  <script src="msg1.js" defer></script>  
 </head>
 
 <body>
-
-    <!--<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#"> Avetisyan Inc. </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="f1.html"> Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="qwe.html"> Canvas </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#"> Old site </a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav> -->
 
 	<h1> My site </h1>
 	<p class="whiteOnGreen">Нашим веб-сайтом управляет:</p>
@@ -48,18 +20,20 @@
 	<h2> Fuckin' rabbits really talk </h2>
 	
 	<figure class="FloatFigure">
-	<img src="smok.jpg" width='400' height='400'>
+	<img id="photoForChange" src="0.jpg" width='400' height='400' onClick="ObjectForButton.changePhoto()" >
 	<figcaption> <strong>Сigarette</strong> in the mouth however!</figcaption>
 	</figure>
 
 	<div class="whiteOn">
 	<p > <span class="onGreen">Let's consider the rabbits</span></p>
 	
-  <script src="msg1.js" defer></script> 
-  <script src="msg3.js" async></script> 
+  <script src="msg3.js" defer>
+  </script> 
 
 	<p class=onYellow>Rabbits was consider</p>
 	</div>
+	
+	<button id="buttonForChangeBackgroundColor" onClick="ObjectForButton.changeBackgroundColor()" >Hello</button>
 	
 	<p id=banner>  <strong>Caution.</strong> Can be your favorite music. </p>
 
@@ -75,7 +49,7 @@
 </ul>
 </aside>
 	
-	<iframe class="forFrame" src="house.html" width="800" height="600">
+	<iframe class="forFrame" src="house2.html" width="800" height="600">
     </iframe>
 
 </body>
