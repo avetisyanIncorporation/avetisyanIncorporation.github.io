@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> Avetisyan & Co. </title>
-<meta name="viewport" content="width=device; initial-scale=1.2;  maximum-scale=1.2;">
-
-  <link href="style.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Avetisyan & Co.</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
 </head>
-<body style='background-color:pink;color:white'>
+<body style='background-color:pink !important;color:white'>
 
-<aside class = "NavSidebar">
-<ul>
-<li><a id=firmName>Avetisyan Inc.</a></li>
-<li><a href="index.html">Home</a></li>
-<li><a href="canvas.html">Canvas</a></li>
-<li><a href="oldindex.html">Old site</a></li>
-<li><a href="contacts.html">Contacts</a></li>
-</ul>
-</aside>
+    <nav class="navbar navbar-default" id="my-header">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><b id="my-brand-text">Avetisyan Inc.</b></a>        
+			</div>
+			<div class="collapse navbar-collapse" id="navbar-main">
+				<ul class="nav navbar-nav nav-menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="oldIndex.html">Old site</a></li>
+					<li><a href="#">News</a></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+    </nav>
 
 <h2><b><pre><big>         Avetisyan Inc.       </big></pre></b></h2>
 <hr />
@@ -26,38 +42,34 @@
 <li> <a href='#image'> Image </a><br /> </li>
 <li> <a href='#instagram'> Instagram </a> </li>
 <li> <a href='#house'> House </a> </li>
-<li> <a href='#more'> More </a> </li>
 <li> <a href='#music'> Music </a> </li>
 </ul>
 <hr />
 
 <a name='image'><h2><i> Image </i></h2></a>
-<img src='raz.jpg'  />
+<img src='images/raz.jpg'  />
 
 <a name='instagram'><h2 style='color:white'><i> Instagram </i></h2></a>
 <p></p>
 <a href="https://www.instagram.com/avetisyan707/" target="_blank"> 
-<img src='inst.png' width='150' height='150' />
+<img src='images/inst.png' width='150' height='150' />
 </a>
 
 <a name='house'><h2><i> House </i></h2></a>
 <p></p>
 <a href="house.html"> 
-<img src='house.jpg' width='200' height='150' />
+<img src='images/house.jpg' width='200' height='150' />
 </a>
-
-<a name='more'><h2><i> More </i></h2></a>
-<a href="index.html"> more.info </a>
 
 <a name='music'><h2><i> Music </i></h2></a>
 
 <audio autoplay='autoplay'>
-<source src="gucci.mp3" type="audio/mpeg" />
+<source src="music/gucci.mp3" type="audio/mpeg" />
 Your browser does not support the audio element :( 
 </audio>
 
 <audio controls="controls">
-<source src="gucci.mp3" type="audio/mpeg" />
+<source src="music/gucci.mp3" type="audio/mpeg" />
 Your browser does not support the audio element :( 
 </audio>
 

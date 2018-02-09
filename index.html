@@ -1,57 +1,258 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <title>Training</title> 
-  <link href="style.css" rel="stylesheet"> 
-  <script src="msg1.js" defer></script>  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Avetisyan Inc.</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+	<script src="js/backgroundColor.js"></script>  
 </head>
-
 <body>
-
-	<h1> My site </h1>
-	<p class="whiteOnGreen">Нашим веб-сайтом управляет:</p>
-	<address > 
-	<p class="names" onClick="showMessage()" > <strong>John Solo</strong> </p>
-	</address>
-	<p class="whiteOnGreen">Чарльз Диккенс написал <cite>Повесть о двух городах</cite>.</p>
-
-	<h2> Fuckin' rabbits really talk </h2>
+    <nav class="navbar navbar-default" id="my-header">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<span class="navbar-brand" onclick="ObjectFor.changeBackgroundColor()">
+					<b id="my-brand-text">Avetisyan Inc.</b>
+				</span>        
+			</div>
+			<div class="collapse navbar-collapse" id="navbar-main">
+				<ul class="nav navbar-nav nav-menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="oldIndex.html">Old site</a></li>
+					<li><a href="#">News</a></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+    </nav>
+	<p id=banner class="mrg5"> <strong>Caution.</strong> Can be your favorite music.</p>
 	
-	<figure class="FloatFigure">
-	<img id="photoForChange" src="0.jpg" width='400' height='400' onClick="ObjectForButton.changePhoto()" >
-	<figcaption> <strong>Сigarette</strong> in the mouth however!</figcaption>
-	</figure>
-
-	<div class="whiteOn">
-	<p > <span class="onGreen">Let's consider the rabbits</span></p>
+	<div class="music-wrapper mrg5">
+		<div class="music-fragment">
+			<img src='images/scream.jpg' width='500' height='500' />
+			<p>Abuuu - Screaming</p>
+			<audio controls='controls'>
+				<source src="music/Abuuu - Screaming.mp3" type="audio/mpeg" />
+			</audio>
+			<hr />
+		</div>
+		
+		<div class="music-fragment">
+			<img src='images/vice.jpg' width='500' height='500' />
+			<p>R - Flamingo</p>
+			<audio controls='controls'>
+				<source src="music/R - Flamingo.mp3" type="audio/mpeg" />
+			</audio>
+			<hr />
+		</div>
+		
+		<div class="music-fragment">
+			<img src='images/naplya.jpg' width='500' height='600' />
+			<p>R7 - Colors Of The Rainbow</p>
+			<audio controls='controls'>
+				<source src="music/R7 - Colors Of The Rainbow.mp3" type="audio/mpeg" />
+			</audio>
+			<hr />
+		</div>
+		
+		<div class="music-fragment">
+			<img src='images/bunke.jpg' width='500' height='550' />
+			<p>USA - Bunker</p>
+			<audio controls='controls'>
+				<source src="music/USA - Bunker.mp3" type="audio/mpeg" />
+			</audio>
+			<hr />
+		</div>
+		
+		<div class="music-fragment">
+			<img src='images/ark.jpg' width='500' height='500' />
+			<p>My angel</p>
+			<audio controls='controls'>
+				<source src="music/My angel.mp3" type="audio/mpeg" />
+			</audio>
+			<hr />
+		</div>
+		
+		<div class="music-fragment">
+			<img src='images/bomb.jpg' width='500' height='600' />
+			<p>Abuuu - True Colors</p>
+			<audio controls='controls'>
+				<source src="music/Abuuu - True Colors.mp3" type="audio/mpeg" />
+			</audio>
+			<hr />
+		</div>
+		
+		<div class="music-fragment">
+			<img src='images/depin.jpg' width='500' height='500' />
+			<p>bomba - Tt</p>
+			<audio controls='controls'>
+				<source src="music/bomba - Tt.mp3" type="audio/mpeg" />
+			</audio>
+			<hr />
+		</div>
 	
-  <script src="msg3.js" defer>
-  </script> 
-
-	<p class=onYellow>Rabbits was consider</p>
+		<div class="music-fragment">
+			<img src='images/pushki.jpg' width='500' height='500' />
+			<p>USA - Mi Gna 2017</p>
+			<audio controls='controls'>
+				<source src="music/USA - Mi Gna 2017.mp3" type="audio/mpeg" />
+			</audio>
+			<hr />
+		</div>
+		
+		<div class="music-fragment">
+			<img src='images/train.jpg' width='500' height='500' />
+			<p>John Rous_</p>
+			<audio controls='controls'>
+				<source src="music/John Rous_.mp3" type="audio/mpeg" />
+			</audio>
+			<hr />
+		</div>
+	
+		<div class="music-fragment">
+			<img src='images/xa.jpg' width='500' height='500' />
+			<p>Abuuu - Adelina Emini - Ne Pervjetor (Bess & Gon Haziri Remix)</p>
+			<audio controls='controls'>
+				<source src="music/Abuuu - Adelina Emini - Ne Pervjetor (Bess & Gon Haziri Remix).mp3" type="audio/mpeg" />
+			</audio>
+			<hr />
+		</div>
+		
+		<div class="music-fragment">
+			<img src='images/ka.jpg' width='500' height='500' /> 
+			<p>AM-Music - like records</p>
+			<audio controls='controls'>
+				<source src="music/AM-Music - like records.mp3" type="audio/mpeg" />
+			</audio>
+			<hr/>
+		</div>
+		
+		<div class="music-fragment">
+			<img src='images/gl.jpg' width='500' height='550' /> 
+			<p>R</p>
+			<audio controls='controls'>
+				<source src="music/R.mp3" type="audio/mpeg" />
+			</audio>
+			<hr/>
+		</div>
+		
+		<div class="music-fragment">
+			<img src='images/rud.jpg' width='500' height='500' />
+			<p>EA7  - Vitor Munhoz, William Henry - Do Not Think (Original Mix)</p>
+			<audio controls='controls'>
+				<source src="music/EA7  - Vitor Munhoz, William Henry - Do Not Think (Original Mix).mp3" type="audio/mpeg" />
+			</audio>						
+			<hr />
+		</div>
+		
+		<div class="music-fragment">
+			<img src='images/pr2.jpg' width='500' height='615' /> 
+			<p>NBSPLV - Mirrors</p>
+			<audio controls='controls'>
+				<source src="music/NBSPLV - Mirrors.mp3" type="audio/mpeg" />
+			</audio>
+			<hr />
+		</div>
+		
+		<div class="music-fragment">
+			<img src='images/jo.jpg' width='500' height='500' /> 
+			<p>Gryaz - jopa narkota</p>
+			<audio controls='controls'>
+				<source src="music/jopa narkota.mp3" type="audio/mpeg" />
+			</audio>
+			<hr />
+		</div>
+		
+		<div class="music-fragment">
+			<img src='images/pr.jpg' width='500' height='500' /> 
+			<p>Palo Alto - Ready Or Not</p>
+			<audio controls='controls'>
+				<source src="music/Palo Alto - Ready Or Not.mp3" type="audio/mpeg" />
+			</audio>
+			<hr />
+		</div>
+		
+		<div class="music-fragment">
+			<img src='images/in.jpg' width='615' height='492' /> 
+			<p>Faithless - Insomnia (Kapral Remix)</p>
+			<audio controls='controls'>
+				<source src="music/Faithless - Insomnia (Kapral Remix).mp3" type="audio/mpeg" />
+			</audio>
+			<hr />
+		</div>
+		
+		<div class="music-fragment">
+			<img src='images/tu.jpg' width='500' height='500' /> 
+			<p>2PAC ft. Nas & Obie Trice - 3 Messages</p>
+			<audio controls='controls'>
+				<source src="music/2PAC ft. Nas & Obie Trice - 3 Messages.mp3" type="audio/mpeg" />
+			</audio>
+			<hr />
+		</div>
+		
+		<div class="music-fragment">
+			<img src='images/ar.jpg' width='500' height='500' /> 
+			<p>Abuuu - zola</p>
+			<audio controls='controls'>
+				<source src="music/Abuuu - zola.mp3" type="audio/mpeg" />
+			</audio>
+			<hr />
+		</div>
+		
+		<div class="music-fragment">
+			<img src='images/inGlass.jpg' width='500' height='500' /> 
+			<p>Monolink - Burning Sun (Just Emma's Just Take Me Back Mix)</p>
+			<audio controls='controls'>
+				<source src="music/Monolink - Burning Sun (Just Emma's Just Take Me Back Mix).mp3" type="audio/mpeg" />
+			</audio>
+			<hr />
+		</div>
+		
+		<div class="music-fragment">
+			<img src='images/popa.jpg' width='500' height='500' /> 
+			<p>ss-777 - Sunday (Klangkarussell Remix)</p>
+			<audio controls='controls'>
+				<source src="music/ss-777 - Sunday (Klangkarussell Remix).mp3" type="audio/mpeg" />
+			</audio>
+			<hr />
+		</div>
+		
+		<div class="music-fragment">
+			<img src='images/ya.jpg' width='500' height='580' /> 
+			<p>Palo Alto - 600</p>
+			<audio controls='controls'>
+				<source src="music/Palo Alto - 600.mp3" type="audio/mpeg" />
+			</audio>
+			<hr />
+		</div>
+		
+		<div class="music-fragment">
+			<img src='images/plya.jpg' width='500' height='500' /> 
+			<p>Track: <b>Palo Alto - get lucky</p>
+			<audio controls='controls'>
+				<source src="music/Palo Alto - get lucky.mp3" type="audio/mpeg" />
+			</audio>
+			<hr />
+		</div>
+		
+		<div class="music-fragment">
+			<img src='images/slon.jpg' width='500' height='500' /> 
+			<p>Track: <b>Palo Alto - waiting</p>
+			<audio controls='controls'>
+				<source src="music/Palo Alto - waiting.mp3" type="audio/mpeg" />
+			</audio>
+			<hr />
+		</div>
 	</div>
-	
-	<button id="buttonForChangeBackgroundColor" onClick="ObjectForButton.changeBackgroundColor()" >Hello</button>
-	
-	<p id=banner>  <strong>Caution.</strong> Can be your favorite music. </p>
-
-	
-<aside class = "NavSidebar">
-<ul>
-<li><a id=firmName>Avetisyan Inc.</a></li>
-<li><a href="index.html">Home</a></li>
-<li><a href="house.html">House</a></li>
-<li><a href="canvas.html">Canvas</a></li>
-<li><a href="oldindex.html">Old site</a></li>
-<li><a href="contacts.html">Contacts</a></li>
-</ul>
-</aside>
-	
-	<iframe class="forFrame" src="house2.html" width="800" height="600">
-    </iframe>
-
-</body>
-
+  </body>
 </html>

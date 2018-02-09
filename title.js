@@ -1,1 +1,0 @@
-document.getElementsByTagName('title')[0].text = "Training2";
