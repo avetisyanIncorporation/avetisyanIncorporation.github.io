@@ -29,7 +29,7 @@ body {
 
 .music-fragment p {
 	color: white;
-	font-size: 18px;
+	font-size: 25px !important;
 	font-weight: bold;
 	font: bold italic 145% serif;
 }
