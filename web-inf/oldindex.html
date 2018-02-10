@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Avetisyan & Co.</title>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="../js/bootstrap.js"></script>
+	<script src="../js/backgroundColor.js"></script>
 </head>
-<body style='background-color:pink !important;color:white'>
+<body>
 
     <nav class="navbar navbar-default" id="my-header">
 		<div class="container-fluid">
@@ -21,13 +22,15 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#"><b id="my-brand-text">Avetisyan Inc.</b></a>        
+				<span class="navbar-brand" onclick="ObjectFor.changeBackgroundColor()">
+					<b id="my-brand-text">Avetisyan Inc.</b>
+				</span>          
 			</div>
 			<div class="collapse navbar-collapse" id="navbar-main">
 				<ul class="nav navbar-nav nav-menu">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="oldIndex.html">Old site</a></li>
-					<li><a href="#">News</a></li>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="#">Old site</a></li>
+					<li><a href="news.html">News</a></li>
 					<li></li>
 				</ul>
 			</div>
@@ -47,29 +50,29 @@
 <hr />
 
 <a name='image'><h2><i> Image </i></h2></a>
-<img src='images/raz.jpg'  />
+<img src='../images/raz.jpg'  />
 
 <a name='instagram'><h2 style='color:white'><i> Instagram </i></h2></a>
 <p></p>
 <a href="https://www.instagram.com/avetisyan707/" target="_blank"> 
-<img src='images/inst.png' width='150' height='150' />
+<img src='../images/inst.png' width='150' height='150' />
 </a>
 
 <a name='house'><h2><i> House </i></h2></a>
 <p></p>
 <a href="house.html"> 
-<img src='images/house.jpg' width='200' height='150' />
+<img src='../images/house.jpg' width='200' height='150' />
 </a>
 
 <a name='music'><h2><i> Music </i></h2></a>
 
 <audio autoplay='autoplay'>
-<source src="music/gucci.mp3" type="audio/mpeg" />
+<source src="../music/gucci.mp3" type="audio/mpeg" />
 Your browser does not support the audio element :( 
 </audio>
 
 <audio controls="controls">
-<source src="music/gucci.mp3" type="audio/mpeg" />
+<source src="../music/gucci.mp3" type="audio/mpeg" />
 Your browser does not support the audio element :( 
 </audio>
 
