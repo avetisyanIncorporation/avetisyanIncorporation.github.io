@@ -1,3 +1,7 @@
+html {
+	min-width: 510px;
+}
+
 body {
     background-image:  url(../images/background.jpg);
     color: red;
@@ -66,4 +70,19 @@ body {
 
 .mrg5 {
 	margin-left: 5px;
+}
+
+.wh55 img {
+	width: 500px;
+	height: 500px;
+}
+
+.wh56 img {
+	width: 500px;
+	height: 600px;
+}
+
+.wh55-5 img {
+	width: 500px;
+	height: 550px;
 }
