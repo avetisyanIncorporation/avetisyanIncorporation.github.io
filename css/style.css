@@ -46,7 +46,7 @@ body {
 	-moz-border-radius:7px 7px 7px 7px ;
 	-webkit-border-radius:7px 7px 7px 7px ;
 	border-radius:7px 7px 7px 7px ;
-	height: 40px;
+	height: 60px;
 }
 
 .music-fragment audio:hover, audio:focus, audio:active
