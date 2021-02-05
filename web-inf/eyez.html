@@ -2,40 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <title>Avetisyan Inc.</title>
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <link href="../css/eyez.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/eyez.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-default" id="my-header">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <span class="navbar-brand" onclick="ObjectFor.changeBackgroundColor()">
-					<b id="my-brand-text">Avetisyan Inc.</b>
-				</span>
-        </div>
-        <div class="collapse navbar-collapse" id="navbar-main">
-            <ul class="nav navbar-nav nav-menu">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="oldsite.html">Old site</a></li>
-                <li><a href="#">News</a></li>
-                <li></li>
-            </ul>
-        </div>
+    <div class="hello-eye">
+        <img src='../images/eyez/hi.png'/>
     </div>
-</nav>
-
-<div class="music-fragment wh56">
-    <img src='images/dush.jpg'/>
-    <p>Tebra - Dusha</p>
-    <audio controls='controls'>
-        <source src="music/Tebra - Dusha.mp3" type="audio/mpeg" />
-    </audio>
-    <hr />
-</div>
-
+    <div class="hello-eye">
+        <img src='../images/eyez/111.png'/>
+    </div>
+    <div class="hello-eye">
+        <img src='../images/eyez/2222.png'/>
+    </div>
+    <div class="hello-eye">
+        <div>
+            <button id="lightTumbler">click me</button>
+            <label>just turn off the light</label>
+        </div>
+        <img class="light" src='../images/eyez/3333.png'/>
+        <img class="dark hidden" src='../images/eyez/6666.png'/>
+    </div>
 </body>
 </html>
