@@ -3,14 +3,29 @@ img {
     height: auto;
 }
 
-.hidden {
+* {
+margin: 0;
+padding: 0;
+}
+
+.hidden, .hide {
     display: none;
 }
 
-label {
-    color: aliceblue;
-}
+/*label {*/
+/*    color: aliceblue;*/
+/*}*/
 
 body {
+    /*background-image: url(../images/eyez/kar.png);*/
     background-color: black;
+}
+
+td {
+    padding: 0;
+}
+
+table {
+    border-spacing: 0;
+    border: none;
 }
