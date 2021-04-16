@@ -1,11 +1,7 @@
 img {
     max-width: 100%;
     height: auto;
-}
-
-* {
-margin: 0;
-padding: 0;
+    display: block;
 }
 
 .hidden, .hide {
@@ -17,8 +13,9 @@ padding: 0;
 /*}*/
 
 body {
-    /*background-image: url(../images/eyez/kar.png);*/
     background-color: black;
+    margin: 0;
+    padding: 0;
 }
 
 td {
