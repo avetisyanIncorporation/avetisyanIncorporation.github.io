@@ -39,16 +39,16 @@ img.eye {
 }
 
 #coin.animation1080 {
-    -webkit-animation: rotate1080 3s linear forwards;
-    animation: rotate1080 3s linear forwards;
+    -webkit-animation: rotate1080 22000s linear forwards;
+    animation: rotate1080 22000s linear forwards;
 }
 
 @-webkit-keyframes rotate1080 {
     from { -webkit-transform: rotateY(0); -moz-transform: rotateY(0); transform: rotateY(0); }
-    to { -webkit-transform: rotateY(1080deg); -moz-transform: rotateY(1080deg); transform: rotateY(1080deg); }
+    to { -webkit-transform: rotateY(1800000deg); -moz-transform: rotateY(1800000deg); transform: rotateY(1800000deg); }
 }
 
 @keyframes rotate1080 {
     from { -webkit-transform: rotateY(0); -moz-transform: rotateY(0); transform: rotateY(0); }
-    to { -webkit-transform: rotateY(1080deg); -moz-transform: rotateY(1080deg); transform: rotateY(1080deg); }
+    to { -webkit-transform: rotateY(1800000deg); -moz-transform: rotateY(1800000deg); transform: rotateY(1800000deg); }
 }
