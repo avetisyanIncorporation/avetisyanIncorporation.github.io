@@ -21,14 +21,6 @@ img.eye {
     transform: translate(-50%, -50%);
 }
 
-img.inst {
-    height: 122px;
-    position: absolute;
-    padding: 8%;
-    transform: rotatez(-45deg);
-    border-radius: 50%;
-}
-
 #coin {
     position: relative;
     transform-style: preserve-3d;
