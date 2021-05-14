@@ -39,8 +39,8 @@ img.eye {
 }
 
 #coin.animation1080 {
-    -webkit-animation: rotate1080 22000s linear forwards;
-    animation: rotate1080 22000s linear forwards;
+    -webkit-animation: rotate1080 20000s linear forwards;
+    animation: rotate1080 20000s linear forwards;
 }
 
 @-webkit-keyframes rotate1080 {
