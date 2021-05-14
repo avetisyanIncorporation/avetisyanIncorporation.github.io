@@ -29,14 +29,15 @@ $(document).ready(function() {
     $(window).bind('resize', set_body_height);
     set_body_height();
 
+    var animationClass = 'animation1080';
     setTimeout(function() {
-        $('#coin').addClass('animation1080');
+        $('#coin').addClass(animationClass);
     }, 100);
 
     $('#coin').on('click', function() {
         $('#coin').removeClass();
         setTimeout(function() {
-            $('#coin').addClass('animation1080');
+            $('#coin').addClass(animationClass);
         }, 100);
     });
 });
