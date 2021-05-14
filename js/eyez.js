@@ -29,15 +29,23 @@ $(document).ready(function() {
     $(window).bind('resize', set_body_height);
     set_body_height();
 
-    var animationClass = 'animation1080';
-    setTimeout(function() {
-        $('#coin').addClass(animationClass);
-    }, 100);
+    var loadedImages = 0;
+    var totalImages = $('img').length;
+    $('img').on('load', function(event) {
+        loadedImages++;
+        if (loadedImages === totalImages || loadedImages === totalImages - 1) {
+            showAnimation();
+        }
+    });
+
+    function showAnimation() {
+        setTimeout(function() {
+            $('#coin').addClass('animation1080');
+        }, 100);
+    }
 
     $('#coin').on('click', function() {
         $('#coin').removeClass();
-        setTimeout(function() {
-            $('#coin').addClass(animationClass);
-        }, 100);
+        showAnimation();
     });
 });
