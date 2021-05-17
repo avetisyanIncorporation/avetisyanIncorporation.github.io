@@ -8,6 +8,14 @@ img {
     display: none;
 }
 
+.swiper {
+    border: 0;
+}
+
+.about-text-wrapper {
+    float: right;
+}
+
 body {
     background-color: black;
     margin: 0;

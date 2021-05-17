@@ -6,8 +6,8 @@ $(document).ready(function() {
         var windowHeight = $(window).height();
         var windowWidth = $(window).width();
         var isMobile = windowHeight > windowWidth;
-        $('.backgr').height($(window).height());
-        $('.backgr').width($(window).width());
+        $('.backgr').height(windowHeight);
+        $('.backgr').width(windowWidth);
 
         $('.eye').css('height', '');
         $('.eye').css('width', '');
@@ -36,8 +36,8 @@ $(document).ready(function() {
     }
     showAnimation();
 
-    $('#coin').on('click', function() {
-        $('#coin').removeClass();
-        showAnimation();
-    });
+    // $('#coin').on('click', function() {
+    //     $('#coin').removeClass();
+    //     showAnimation();
+    // });
 });
