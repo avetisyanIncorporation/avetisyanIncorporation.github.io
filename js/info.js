@@ -13,13 +13,11 @@ $(document).ready(function() {
 
             $('.about').css('height', ((windowHeight - (windowWidth / imgProportion - 2))) - windowHeight * 0.05);
             $('.about').css('width', windowWidth);
-            $('.about-text-wrapper').css("margin-top", '5%');
 
             $('.content').css("margin-right", '');
             $('.content').css("margin-left", '');
-            $('.content').css("margin-top", '');
         } else {
-            $('.swiper').height(windowHeight * 0.8);
+            $('.swiper').height(windowHeight * 0.8 + 45);
             $('.swiper').width(windowHeight * 0.8 * imgProportion);
 
             $('.about').height(windowHeight * 0.8);
@@ -28,7 +26,6 @@ $(document).ready(function() {
 
             $('.content').css("margin-right", '7%');
             $('.content').css("margin-left", '7%');
-            $('.content').css("margin-top", '5%');
         }
     }
     $(window).bind('resize', set_body_height);

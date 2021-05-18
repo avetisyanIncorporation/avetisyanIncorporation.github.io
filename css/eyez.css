@@ -12,6 +12,14 @@ img {
     border: 0;
 }
 
+.title {
+    color: #02f8f8; /* fd0707 */
+    font-family: Elephant;
+    text-align: center;
+    font-size: 77px;
+    letter-spacing: -5px;
+}
+
 .about-text-wrapper {
     float: right;
 }
