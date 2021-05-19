@@ -12,9 +12,17 @@ img {
     border: 0;
 }
 
+.swiper-button-next, .swiper-button-prev {
+    color: #02f8f8;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #02f8f8;
+}
+
 .title {
     color: #02f8f8; /* fd0707 */
-    font-family: Elephant;
+    font-family: MyElephant;
     text-align: center;
     font-size: 77px;
     letter-spacing: -5px;
@@ -67,4 +75,9 @@ img.eye {
 @keyframes rotate1080 {
     from { -webkit-transform: rotateY(0); -moz-transform: rotateY(0); transform: rotateY(0); }
     to { -webkit-transform: rotateY(1800000deg); -moz-transform: rotateY(1800000deg); transform: rotateY(1800000deg); }
+}
+
+@font-face {
+    font-family: 'MyElephant';
+    src: URL('Elephant.ttf') format('truetype');
 }
