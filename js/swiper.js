@@ -21,6 +21,4 @@ $(document).ready(function() {
         },
     });
 
-    $('.swiper-wrapper').css('transform', 'rotateY(-135deg)');
-
 });
