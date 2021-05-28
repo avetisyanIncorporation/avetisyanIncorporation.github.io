@@ -3,17 +3,12 @@ $(document).ready(function() {
     "use strict";
 
     var swiper = new Swiper('.swiper-container', {
-        effect: 'cube',
-        grabCursor: true,
+        slidesPerView: 1,
+        spaceBetween: 30,
         loop: true,
-        cubeEffect: {
-            shadow: true,
-            slideShadows: true,
-            shadowOffset: 20,
-            shadowScale: 0.94,
-        },
         pagination: {
             el: '.swiper-pagination',
+            clickable: true,
         },
         navigation: {
             nextEl: '.swiper-button-next',
