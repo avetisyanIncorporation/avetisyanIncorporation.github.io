@@ -45,11 +45,11 @@ img {
     font-size: 70%;
 }
 
-.contacts:hover {
+.contacts:hover, .contacts:active {
     background: rgba(50,50,50,.6);
 }
 
-.contacts:hover * {
+.contacts:hover *, .contacts:active * {
     opacity: 1;
     filter: alpha(opacity=100);
     color: #ffc;
