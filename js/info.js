@@ -6,7 +6,7 @@ $(document).ready(function() {
         var windowHeight = $(window).height();
         var windowWidth = $(window).width();
         var isMobile = windowHeight > windowWidth;
-        var imgProportion = 1.2335;
+        var imgProportion = 1.33;
         if (isMobile) {
             $('.swiper').css('height', windowWidth / imgProportion - 2);
             $('.swiper').css('width', windowWidth);
